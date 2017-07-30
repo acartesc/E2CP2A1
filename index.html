@@ -50,19 +50,20 @@
 	}
 
 	.boton-azul{
-		background-color: blue;
+		background-color: royalblue;
 		width: 150px;
 		height: 40px;
 		padding-top: 10px;
 		text-align: center;
 		box-sizing: border-box;
-		margin-left: 525px;
+		margin-left: 478px;
 		margin-bottom: 10px;
 		float: left;
+		border-radius: 5px;
 	}
 
 	.boton-verde{
-		background-color: green;
+		background-color: #5fd45f;
 		width: 150px;
 		height: 40px;
 		padding-top: 10px;
@@ -71,6 +72,7 @@
 		margin-left: 10px;
 		margin-bottom: 10px;
 		float: left;
+		border-radius: 5px;
 	}
 	
 	p{
@@ -112,7 +114,7 @@
 	}
 
 	.boton-azul-2{
-		background-color: blue;
+		background-color: royalblue;
 		width: 150px;
 		height: 40px;
 		padding-top: 10px;
@@ -120,6 +122,7 @@
 		box-sizing: border-box;
 		margin: auto;
 		color: white;
+		border-radius: 5px;
 	}
 
 	.bloque-4{
@@ -142,11 +145,19 @@
 		margin-left: 50px;
 	}
 
+	.final-title{
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
 	.bloque-5{
-		height: 80px;
+		height: 60px;
 		width: 100%;
 		background-color: #222;
-		color: black;
+		color: white;
+		text-align: left;
+		position: relative;
+		font-weight: bold;
 	}
 	</style>
 </head>
@@ -204,22 +215,28 @@
 	<div class="bloque-4">
 
 		<div class="div-final-1">
-			<p> Contacto </p>
-			<p> Desafío Latam </p>
+			<p class="final-title"> Contacto </p>
+			<p style="font-weight: bold"> Desafío Latam </p>
 			<p> Ezequías Allende 2361 </p>
 			<p> P: +56 9 5117 7975 </p>
 			<a href="inscripciones@desafiolatam.com">inscripciones@desafiolatam.com</a>
 		</div>
 		
 		<div class="div-final-2">
-			<p> Suscríbete </p>	
+			<p class="final-title"> Suscríbete </p>	
 			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<form>
+				<input style="width: 150px; float: left; color: gray;" type="text" name="email" value="Ingresa tu mail" >
+				<input style="float: left" type="submit" value="Enviar">
+			</form>
+
+
 		</div>
 
 	</div>
 	
 	<div class="bloque-5">
-		<p>DESAFIOLATAM 2016 - CURSO FULLSTACK G5</p>
+		<p style="position: absolute; left: 200px; top: 20px">DESAFIOLATAM 2016 - CURSO FULLSTACK G5</p>
 	</div>
 
 </body>
